@@ -1,0 +1,40 @@
+# ============================================================
+#  SITE SETTINGS
+# ============================================================
+title:       "Your Name"
+description: "Cybersecurity professional based in Toledo, Ohio."
+url:         "https://yourusername.github.io"  # no trailing slash
+baseurl:     ""  # leave empty for a root repo (yourusername.github.io)
+                 # if using a project repo, set to "/repo-name"
+
+# ============================================================
+#  AUTHOR
+# ============================================================
+author:
+  name:     "Your Name"
+  email:    "you@email.com"
+  linkedin: "yourprofile"
+  github:   "yourusername"
+
+# ============================================================
+#  BUILD
+# ============================================================
+theme:      null          # no theme — we're using our own layout
+markdown:   kramdown      # default Jekyll markdown processor
+permalink:  /blog/:title/ # clean URLs for posts, e.g. /blog/how-i-passed-cysa/
+
+# ============================================================
+#  PLUGINS
+# ============================================================
+plugins:
+  - jekyll-feed            # auto-generates an RSS feed at /feed.xml
+  - jekyll-seo-tag         # adds meta/OG tags for LinkedIn previews
+
+# ============================================================
+#  EXCLUDES
+# ============================================================
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
