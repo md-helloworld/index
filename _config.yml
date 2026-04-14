@@ -1,6 +1,6 @@
 title:       "Michaela Davis"
 description: "Cybersecurity professional based in Toledo, Ohio."
-url:         "https://md-helloworld.github.io"  # no trailing slash
+url:         "https://md-helloworld.github.io"
 baseurl:     "/index"
 
 author:
@@ -10,7 +10,7 @@ author:
   github:   "md-helloworld"
 
 theme:      null
-markdown:   kramdown   
+markdown:   kramdown
 permalink:  /blog/:title/
 
 plugins:
